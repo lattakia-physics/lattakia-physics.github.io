@@ -10,22 +10,44 @@
         <section>
             <h2>الاختبارات</h2>
             <ul>
-                <li><a href="link-to-test1" target="_blank">اختبارات الميكانيك</a></li>
-             <li><a href="link-to-test1" target="_blank">اختبارات الترموديناميك</a></li>
-                <li><a href="link-to-test2" target="_blank">اختبارات الكهرطيسية</a></li>
-                <li><a href="link-to-test3" target="_blank">اختبارات ميكانيكا الكم</a></li>
-             <li><a href="link-to-test3" target="_blank">اختبارات الضوء</a></li>
+                <p>الميكانك<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الترموديناميك<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الكهرطيسية<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الضوء<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الفيزياء النسبية والحديثة<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
             </ul>
         </section>
         <section>
             <h2>ملفات التدريب النظري</h2>
             <ul>
-                <li><a href="link-to-file1" target="_blank">ملفات الميكانيك</a></li>
-                <li><a href="link-to-file2" target="_blank">ملفات الترموديناميك </a></li>
-                <li><a href="link-to-file2" target="_blank">ملفات الكهرطيسية </a></li>
-                <li><a href="link-to-file3" target="_blank">ملفات الفيزياء الحديثة</a></li>
-             <li><a href="link-to-file3" target="_blank">ملفات الضوء </a></li>
-            </ul>
+                <p>الميكانك<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الترموديناميك<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الكهرطيسية<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الضوء<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+                <p>الفيزياء النسبية والحديثة<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                </p>
+           </ul>
         </section>
     </div>
     <footer>
