@@ -66,11 +66,7 @@
                 <a href="https://drive.google.com/file/d/1-Lyp0Q3dtRpcAwOfrbkClxa7gNC1G7R_/view?usp=sharing" target="_blank">ملخص نسبية </a><br>
                 <a href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing" target="_blank">ملخص كم  </a>
                 </p>
-   </ul>
-</section>
-    </div>
+   
     <footer>
         <p>© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
     </footer>
-</body>
-</html>
