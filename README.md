@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<div dir="rtl">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,7 +50,6 @@
     </style>
 </head>
 
-<div dir="rtl">
 <header>
         <h1>أرشيف تدريب أولمبياد الفيزياء</h1>
         <p>فريق الفيزياء - أولمبياد الفيزياء اللاذقية</p>
