@@ -1,10 +1,5 @@
-<body>
-    <p class="right-align">This text is aligned to the right.</p>
-</body>
-</html>
-<body>
-    <header>
-        <h1>أرشيف تدريب أولمبياد الفيزياء</h1>
+<header>
+        <h1 class="right-align">أرشيف تدريب أولمبياد الفيزياء</h1>
         <p>فريق الفيزياء - أولمبياد الفيزياء اللاذقية</p>
         <p>علي شميس - سامي دوه جي - كريم عبد الحميد</p>
     </header>
