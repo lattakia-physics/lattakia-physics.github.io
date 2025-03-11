@@ -27,10 +27,12 @@
                 <a href="https://drive.google.com/file/d/1OGqSB04MXz6p-S-YgMyXBGj1k-s7pUIF/view?usp=sharing">المغناطيسية الساكنة 1 </a> ,
                      <a href="">الحل  </a><br>
                 <a href="https://drive.google.com/file/d/13T3EcVT1BE1n6qBtTGd9lmTHrou5ILOl/view?usp=sharing">المغناطيسية الساكنة 2 </a> ,
+                     <a href="https://drive.google.com/file/d/1sICszNaMYrR0kLMhBliXkwKyO7Mp3Jzc/view?usp=sharing">الحل  </a><br>
+                <a href="https://drive.google.com/file/d/19u-ExtUjc49cXPBwiovRq3ZSKut7b7Hb/view?usp=sharing">الدارات المستمرة   </a> ,
                      <a href="">الحل  </a><br>
-                <a href="">الدارات المستمرة   </a> ,
+                <a href="https://drive.google.com/file/d/16gFCEQH2wkdy2kuy9KMapKqjdUvr25ZX/view?usp=sharing">الدارات المتناوبة   </a> ,
                      <a href="">الحل  </a><br>
-                <a href="">الدارات المتناوبة   </a> ,
+                <a href="https://drive.google.com/file/d/1W48DBTdJQUsCPifh3KdtyjqAMa5IbJbV/view?usp=sharing">كهرطيسية شامل    </a> ,
                      <a href="">الحل  </a><br>
                 </p>
                 <p>الضوء<br>
@@ -44,6 +46,8 @@
         <section>
             <h2>ملفات التدريب النظري</h2>
             <ul>
+                 <p>الرياضيات التفاضلية و التكاملية<br>
+                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
                 <p>الميكانك<br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
