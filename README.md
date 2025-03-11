@@ -47,22 +47,24 @@
             <h2>ملفات التدريب النظري</h2>
             <ul>
                  <p>الرياضيات التفاضلية و التكاملية<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
-                <p>الميكانك<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
+                <a href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing" target="_blank">معادلات تفاضلية  </a><br>
+                <p>الميكانيك<br>
+                <a href="https://drive.google.com/file/d/1NqDZBgoLNRZeul51evCryV9YAY9W6CPL/view?usp=sharing" target="_blank">الامواج  </a><br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
                 </p>
                 <p>الترموديناميك<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank">مراجعة عامة  </a>
                 </p>
                 <p>الكهرطيسية<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="https://drive.google.com/file/d/17yG_ePdAXIS_96rnX0E7bdZsBWyVasZj/view?usp=sharing" target="_blank">صروة شحنة  </a><br>
+                <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank">ملفات حركة الشحنات في حقول كهرطيسية </a> 
                 </p>
                 <p>الضوء<br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
                 </p>
                 <p>الفيزياء النسبية والحديثة<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="https://drive.google.com/file/d/1-Lyp0Q3dtRpcAwOfrbkClxa7gNC1G7R_/view?usp=sharing" target="_blank">ملخص نسبية </a><br>
+                <a href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing" target="_blank">ملخص كم  </a>
                 </p>
            </ul>
         </section>
