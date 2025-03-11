@@ -1,14 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Right Align Example</title>
-    <style>
-        .right-align {
-            text-align: right;
-        }
-    </style>
-</head>
 <body>
     <p class="right-align">This text is aligned to the right.</p>
 </body>
