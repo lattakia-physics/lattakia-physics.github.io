@@ -16,7 +16,7 @@
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
                 </p>
                 <p>الكهرطيسية<br>
-                <a href="https://drive.google.com/file/d/1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9/view?usp=drive_link">الكهرباء الساكنة 1  </a>
+                <a href="[https://drive.google.com/file/d/1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9/view?usp=drive_link](https://drive.google.com/file/d/1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9/view?usp=sharing)">الكهرباء الساكنة 1  </a>
                 </p>
                 <p>الضوء<br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
