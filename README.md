@@ -17,7 +17,7 @@
                 </p>
                 <p>الكهرطيسية<br>
                 <a href="https://drive.google.com/file/d/1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9/view?usp=sharing">الكهرباء الساكنة 1  </a>
-                    <p>,</p>
+                    ,
                      <a href="https://drive.google.com/file/d/1IOILua4GE5rAVriafLsH9eklMz1g_rxJ/view?usp=sharing" target="_blank">الحل  </a>
                 </p>
                 <p>الضوء<br>
