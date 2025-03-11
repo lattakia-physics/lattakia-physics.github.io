@@ -16,7 +16,7 @@
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
                 </p>
                 <p>الكهرطيسية<br>
-                <a href="[link-to-file3](https://github.com/lattakia-physics/lattakia-physics.github.io/blob/main/1/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B3%D8%A7%D9%83%D9%86%D8%A9%20%D8%A7%D9%84%D8%A7%D9%88%D9%84.pdf)" target="_blank">الكهرباء الساكنة 1  </a>
+                <a href="https://drive.usercontent.google.com/download?id=1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9&export=download&authuser=1&confirm=t&uuid=529445ef-8832-45ae-8a34-5d5ae15c469c&at=AEz70l4vCpA8Co7lV614IcvA-Hm1:1741699892777">الكهرباء الساكنة 1  </a>
                 </p>
                 <p>الضوء<br>
                 <a href="link-to-file3" target="_blank">ملفات الضوء </a>
