@@ -68,5 +68,5 @@
                 <a href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing" target="_blank">ملخص كم  </a>
                 </p>
     <footer>
-        <p align="center">© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
+        <p>© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
     </footer>
