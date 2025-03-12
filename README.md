@@ -1,4 +1,4 @@
-theme: Architect
+
 <div dir="rtl">
 <header>
         <h1>أرشيف تدريب أولمبياد الفيزياء</h1>
