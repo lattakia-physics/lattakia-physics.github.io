@@ -7,7 +7,7 @@
 </header>
 <div class="container"> 
  <section>
-            <h2>الاختبارات</h2>
+            <h3>الاختبارات</h3>
             <ul>
                 <p>الميكانك<br>
                 <a href="link-to-file3" target="_blank">قريبا  </a><br>
@@ -45,7 +45,7 @@
             </ul>
         </section>
         <section>
-            <h2>ملفات التدريب النظري</h2>
+            <h3>ملفات التدريب النظري</h3>
             <ul>
                  <p>الرياضيات التفاضلية و التكاملية<br>
                 <a href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing" target="_blank">معادلات تفاضلية  </a><br>
