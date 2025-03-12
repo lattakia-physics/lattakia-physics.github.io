@@ -9,7 +9,7 @@
  <section>
             <h2>الاختبارات</h2>
             <ul>
-                <p>الميكانك<br>
+                <p>الميكانيك<br>
                 <a href="link-to-file3" target="_blank">قريبا  </a><br>
                 <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
