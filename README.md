@@ -10,11 +10,11 @@
             <h2>الاختبارات</h2>
             <ul>
                 <p>الميكانك<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a><br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a><br>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الترموديناميك<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الكهرطيسية<br>
                 <a href="https://drive.google.com/file/d/1Adc9G2FaQRlLGJIkffqWckRSy2sV3fd9/view?usp=sharing">الكهرباء الساكنة 1  </a> ,
@@ -37,10 +37,10 @@
                      <a href="">الحل  </a><br>
                 </p>
                 <p>الضوء<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الفيزياء النسبية والحديثة<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
             </ul>
         </section>
@@ -51,7 +51,7 @@
                 <a href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing" target="_blank">معادلات تفاضلية  </a><br>
                 <p>الميكانيك<br>
                 <a href="https://drive.google.com/file/d/1NqDZBgoLNRZeul51evCryV9YAY9W6CPL/view?usp=sharing" target="_blank">الامواج  </a><br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الترموديناميك<br>
                 <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank">مراجعة عامة  </a>
@@ -61,7 +61,7 @@
                 <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank">ملفات حركة الشحنات في حقول كهرطيسية </a> 
                 </p>
                 <p>الضوء<br>
-                <a href="link-to-file3" target="_blank">ملفات الضوء </a>
+                <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الفيزياء النسبية والحديثة<br>
                 <a href="https://drive.google.com/file/d/1-Lyp0Q3dtRpcAwOfrbkClxa7gNC1G7R_/view?usp=sharing" target="_blank">ملخص نسبية </a><br>
