@@ -5,7 +5,7 @@
         <p>فريق الفيزياء - أولمبياد الفيزياء اللاذقية</p>
         <p>علي شميس - سامي دوه جي - كريم عبد الحميد</p>
 </header>
-<div class="container"> 
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; class="container"> 
  <section>
             <h2>الاختبارات</h2>
             <ul>
