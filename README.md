@@ -1,13 +1,13 @@
 
 <div dir="rtl">
 <header>
-        <h1>أرشيف تدريب أولمبياد الفيزياء</h1>
-        <p>فريق الفيزياء - أولمبياد الفيزياء اللاذقية</p>
-        <p>علي شميس - سامي دوه جي - كريم عبد الحميد</p>
+        <h1 align="center">أرشيف تدريب أولمبياد الفيزياء</h1>
+        <p align="center">فريق الفيزياء - أولمبياد الفيزياء اللاذقية</p>
+        <p align="center">علي شميس - سامي دوه جي - كريم عبد الحميد</p>
 </header>
 <div class="container"> 
  <section>
-            <h3>الاختبارات</h3>
+            <h2 align="center">الاختبارات</h2>
             <ul>
                 <p>الميكانك<br>
                 <a href="link-to-file3" target="_blank">قريبا  </a><br>
@@ -45,7 +45,7 @@
             </ul>
         </section>
         <section>
-            <h3>ملفات التدريب النظري</h3>
+            <h2 align="center">ملفات التدريب النظري</h2>
             <ul>
                  <p>الرياضيات التفاضلية و التكاملية<br>
                 <a href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing" target="_blank">معادلات تفاضلية  </a><br>
@@ -68,5 +68,5 @@
                 <a href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing" target="_blank">ملخص كم  </a>
                 </p>
     <footer>
-        <p>© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
+        <p align="center">© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
     </footer>
