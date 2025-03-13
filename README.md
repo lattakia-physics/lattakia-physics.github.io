@@ -58,7 +58,7 @@
                 </p>
                 <p>الكهرطيسية<br>
                 <a href="https://drive.google.com/file/d/17yG_ePdAXIS_96rnX0E7bdZsBWyVasZj/view?usp=sharing" target="_blank">صورة شحنة  </a><br>
-                <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank">ملفات حركة الشحنات في حقول كهرطيسية </a> 
+                <a href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing" target="_blank"> حركة الشحنات في حقول كهرطيسية </a> 
                 </p>
                 <p>الضوء<br>
                 <a href="link-to-file3" target="_blank">قريبا  </a>
