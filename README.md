@@ -69,5 +69,6 @@
                 </p>
     <footer>
         <p>© ٢٠٢٥ فريق الفيزياء - أولمبياد الفيزياء اللاذقية. جميع الحقوق محفوظة.</p>
-        <a href="lattakiaphysicsfeedback@gmail.com" target="_blank">تواصل معنا</a>
+        <p>تواصل معنا عبر</p>
+        <p> lattakiaphysicsfeedback@gmail.com </p>
     </footer>
