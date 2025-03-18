@@ -19,9 +19,9 @@
                 <a href="link-to-file3" target="_blank">قريبا  </a>
                 </p>
                 <p>الكهرطيسية<br>
-                <a href="https://drive.google.com/file/d/1Is3Ca6kwkY51PkU26KG0dR6E8CUKZrDN/view?usp=sharing">الكهرباء الساكنة 1  </a> ,
+                <a href="https://drive.google.com/file/d/1L8tjI6MSZZv_88WTbJ1TKgEaWqpEX6ci/view?usp=sharing">الكهرباء الساكنة 1  </a> ,
                      <a href="https://drive.google.com/file/d/1IOILua4GE5rAVriafLsH9eklMz1g_rxJ/view?usp=sharing" target="_blank">الحل  </a><br>
-                <a href="https://drive.google.com/file/d/1iR1yDuXfU6_9gn8HQxC-GdwBck0-h4rE/view?usp=sharing">الكهرباء الساكنة 2  </a> ,
+                <a href="https://drive.google.com/file/d/1FXZC1ymzeuYutFw-pdiLQ5aR0LiNv54E/view?usp=sharing">الكهرباء الساكنة 2  </a> ,
                      <a href="https://drive.google.com/file/d/1h8Zurk-Z5I0GNE0gHmYlRVnfKPhuysv7/view?usp=sharing" target="_blank">الحل  </a><br>
                 <a href="https://drive.google.com/file/d/13vZoxOee_e65pDp-PDHJjXdKCQC6SzEw/view?usp=sharing">الكهرباء الساكنة 3  </a> ,
                      <a href="https://drive.google.com/file/d/1NlN7qybehRg6UwKCZ0ASc1EMNMSEIMrH/view?usp=sharing">الحل  </a><br>
