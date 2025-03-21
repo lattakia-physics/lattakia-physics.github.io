@@ -27,7 +27,7 @@
                      <a href="https://drive.google.com/file/d/1NlN7qybehRg6UwKCZ0ASc1EMNMSEIMrH/view?usp=sharing">الحل  </a><br>
                 <a href="https://drive.google.com/file/d/1NSuHBdZ-koPQHH8dpcd7fHGBW7YGkcEI/view?usp=sharing">الكهرباء الساكنة 4  </a> ,
                      <a href="https://drive.google.com/file/d/1ozR7AC7hSaJAyqXVrvimk5--QYPrewAs/view?usp=sharing">الحل  </a><br>
-                <a href="https://drive.google.com/file/d/1OGqSB04MXz6p-S-YgMyXBGj1k-s7pUIF/view?usp=sharing">المغناطيسية الساكنة 1 </a> ,
+                <a href="https://drive.google.com/file/d/1vG9zfAKHS2VYEsPRhLYF10cPyXY5-0Y3/view?usp=sharing">المغناطيسية الساكنة 1 </a> ,
                      <a href="">الحل  </a><br>
                 <a href="https://drive.google.com/file/d/13T3EcVT1BE1n6qBtTGd9lmTHrou5ILOl/view?usp=sharing">المغناطيسية الساكنة 2 </a> ,
                      <a href="https://drive.google.com/file/d/1sICszNaMYrR0kLMhBliXkwKyO7Mp3Jzc/view?usp=sharing">الحل  </a><br>
