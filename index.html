@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>تدريب أولمبياد الفيزياء</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      direction: rtl;
+      transition: all 0.3s ease;
+    }
+    body[dir="ltr"] {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      direction: ltr;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 8px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+    .link-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .pill {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #007acc;
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+    .pill:hover {
+      background: #005a9e;
+    }
+    .pill.disabled {
+      background: #aaa;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }
+    .language-toggle {
+      background: #007acc;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: inherit;
+      transition: background 0.3s;
+      margin-bottom: 15px;
+    }
+    .language-toggle:hover {
+      background: #005a9e;
+    }
+    .hero {
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: white;
+      padding: 40px 0;
+      margin-bottom: 30px;
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="header-content">
+      <div>
+        <h1 id="main-title">تدريبات واختبارات أولمبياد الفيزياء</h1>
+        <p class="lead" id="main-description">
+          تم إعداد هذه الملفات أثناء تقديم تدريب لطلاب أولمبياد الفيزياء في سورية، وهو مستمر حتى الآن بإشراف:
+          علي شميس – سامي دوه جي – كريم عبد الحميد
+        </p>
+      </div>
+      <button class="language-toggle" id="languageToggle">English</button>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <section id="topics">
+    <h2 id="topics-title">الملفات التدريبية</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 id="topic-1">التفاضل والتكامل</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1Lvt-1AgPqdQebznnrWD1Tw6tDsNSwBOf/view?usp=sharing">الشرح</a>
+          <a class="pill" href="https://drive.google.com/file/d/1BKrA73e6wisEInfK6m_TsPWzAk-LMIr5/view?usp=sharing">التدريب</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-2">الميكانيك</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1ffymhx6t-T0jA548K_PEeSGRPbTHH12L/view?usp=sharing">شرح الحركة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1MYgR25eEgCYEIQgCgtmKf8tPSEWhmU5w/view?usp=sharing">تدريب الحركة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1TdV2yb1gRqQrI6_hozVjmJqWDRJ65NVn/view?usp=sharing">شرح القوى</a>
+          <a class="pill" href="https://drive.google.com/file/d/13OsNM56w8uaZuQFELstJUBWdH43j8qqc/view?usp=sharing">تدريب القوى</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NqDZBgoLNRZeul51evCryV9YAY9W6CPL/view?usp=sharing">الأمواج</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-3">معادلات تفاضلية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing">الملف</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-4">الكهرطيسية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/17yG_ePdAXIS_96rnX0E7bdZsBWyVasZj/view?usp=sharing">صورة شحنة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing">حركة الشحنات</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-5">الترموديناميك</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1wW6JTomPvZQprMuXWkpa_XvFH_XAFOge/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-6"> النسبية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1-Lyp0Q3dtRpcAwOfrbkClxa7gNC1G7R_/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="topic-7">ميكانيك الكم</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tests">
+    <h2 id="tests-title">الاختبارات التدريبية</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 id="test-1">الرياضيات</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1GUZs__3brDIbKt-LH6aKar8TsSyhcdu0/view?usp=sharing">اختبار</a>
+          <a class="pill" href="https://drive.google.com/file/d/14AxPJdnFl9DfHn5d2WNWJkERFpOmpj-j/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="test-2">الكهرباء الساكنة</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1L8tjI6MSZZv_88WTbJ1TKgEaWqpEX6ci/view?usp=sharing">اختبار 1</a>
+          <a class="pill" href="https://drive.google.com/file/d/1IOILua4GE5rAVriafLsH9eklMz1g_rxJ/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1FXZC1ymzeuYutFw-pdiLQ5aR0LiNv54E/view?usp=sharing">اختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/1h8Zurk-Z5I0GNE0gHmYlRVnfKPhuysv7/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1Ht8p9shTDocUbiNRYnGnaSdocjYfMxms/view?usp=sharing">اختبار 3</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NlN7qybehRg6UwKCZ0ASc1EMNMSEIMrH/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NSuHBdZ-koPQHH8dpcd7fHGBW7YGkcEI/view?usp=sharing">اختبار 4</a>
+          <a class="pill" href="https://drive.google.com/file/d/1ozR7AC7hSaJAyqXVrvimk5--QYPrewAs/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="test-3">المغناطيسية الساكنة</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1vG9zfAKHS2VYEsPRhLYF10cPyXY5-0Y3/view?usp=sharing">اختبار 1</a>
+          <span class="pill disabled" id="solution-soon-1">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/13T3EcVT1BE1n6qBtTGd9lmTHrou5ILOl/view?usp=sharing">اختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/1sICszNaMYrR0kLMhBliXkwKyO7Mp3Jzc/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3 id="test-4">الدوائر الكهربائية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/19u-ExtUjc49cXPBwiovRq3ZSKut7b7Hb/view?usp=sharing">دوائر مستمرة</a>
+          <span class="pill disabled" id="solution-soon-2">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/16gFCEQH2wkdy2kuy9KMapKqjdUvr25ZX/view?usp=sharing">دوائر متناوبة</a>
+          <span class="pill disabled" id="solution-soon-3">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/1W48DBTdJQUsCPifh3KdtyjqAMa5IbJbV/view?usp=sharing">كهرطيسية شامل</a>
+          <span class="pill disabled" id="solution-soon-4">الحل (قريباً)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="adv">
+    <h2 id="adv-tests-title">الاختبارات المتقدمة</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 id="adv-topic-1">الكهرطيسية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1SnyciQ5q3Q-UwicYb57OrUa5todjFSLS/view?usp=sharing">الاختبار 1</a>
+          <a class="pill" href="https://drive.google.com/file/d/15WLyOSJr1DV9scWbmXSmJxr0sMbyV1xc/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1wIiY39Ab4RiOalP7YXrjJOajODTojVS5/view?usp=sharing">الاختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/17uuLYeMiUJXs0MZfweoEGmvbS1uLWQrB/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1dEe5pM4xQNz9grAbRg55YqAAQ1pviPi3/view?usp=sharing">الاختبار 3</a>
+          <a class="pill" href="https://drive.google.com/file/d/1JRkNCXYGcedGiH3j9RTY86lMHRmOTu1r/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 id="contact-title">تواصل معنا</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 id="email-title">البريد الإلكتروني</h3>
+        <div class="link-row">
+          <a class="pill" href="mailto:lattakiaphysicsfeedback@gmail.com">lattakiaphysicsfeedback@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer id="footer">
+  © 2025 أولمبياد الفيزياء - اللاذقية
+</footer>
+
+<script>
+  // Language data
+  const translations = {
+    ar: {
+      // Main header
+      "main-title": "تدريبات واختبارات أولمبياد الفيزياء",
+      "main-description": "تم إعداد هذه الملفات أثناء تقديم تدريب لطلاب أولمبياد الفيزياء في سورية، وهو مستمر حتى الآن بإشراف: علي شميس – سامي دوه جي – كريم عبد الحميد",
+      
+      // Section titles
+      "topics-title": "الملفات التدريبية",
+      "tests-title": "الاختبارات التدريبية",
+      "adv-tests-title": "الاختبارات المتقدمة",
+      "contact-title": "تواصل معنا",
+      
+      // Topic names
+      "topic-1": "التفاضل والتكامل",
+      "topic-2": "الميكانيك",
+      "topic-3": "معادلات تفاضلية",
+      "topic-4": "الكهرطيسية",
+      "topic-5": "الترموديناميك",
+      "topic-6": "النسبية",
+      "topic-7": "ميكانيك الكم",
+      
+      // Test names
+      "test-1": "الرياضيات",
+      "test-2": "الكهرباء الساكنة",
+      "test-3": "المغناطيسية الساكنة",
+      "test-4": "الدوائر الكهربائية",
+      
+      // Advanced tests
+      "adv-topic-1": "الكهرطيسية",
+      
+      // Contact
+      "email-title": "البريد الإلكتروني",
+      
+      // Footer
+      "footer": "© 2025 أولمبياد الفيزياء - اللاذقية",
+      
+      // Button texts
+      "solution-soon-1": "الحل (قريباً)",
+      "solution-soon-2": "الحل (قريباً)",
+      "solution-soon-3": "الحل (قريباً)",
+      "solution-soon-4": "الحل (قريباً)",
+      
+      // Button labels
+      "explanation": "الشرح",
+      "training": "التدريب",
+      "motion-explanation": "شرح الحركة",
+      "motion-training": "تدريب الحركة",
+      "forces-explanation": "شرح القوى",
+      "forces-training": "تدريب القوى",
+      "waves": "الأمواج",
+      "file": "الملف",
+      "charge-image": "صورة شحنة",
+      "charge-motion": "حركة الشحنات",
+      "summary": "ملخص",
+      "test": "اختبار",
+      "solution": "الحل",
+      "test-1-label": "اختبار 1",
+      "test-2-label": "اختبار 2",
+      "test-3-label": "اختبار 3",
+      "test-4-label": "اختبار 4",
+      "dc-circuits": "دوائر مستمرة",
+      "ac-circuits": "دوائر متناوبة",
+      "comprehensive-electromagnetism": "كهرطيسية شامل",
+      "advanced-test-1": "الاختبار 1",
+      "advanced-test-2": "الاختبار 2",
+      "advanced-test-3": "الاختبار 3"
+    },
+    en: {
+      // Main header
+      "main-title": "Physics Olympiad Training and Tests",
+      "main-description": "These files were prepared during training for Physics Olympiad students in Syria, which continues to this day under the supervision of: Ali Shamis - Sami Douh Ji - Karim Abdul Hamid",
+      
+      // Section titles
+      "topics-title": "Training Materials",
+      "tests-title": "Training Tests",
+      "adv-tests-title": "Advanced Tests",
+      "contact-title": "Contact Us",
+      
+      // Topic names
+      "topic-1": "Calculus",
+      "topic-2": "Mechanics",
+      "topic-3": "Differential Equations",
+      "topic-4": "Electromagnetism",
+      "topic-5": "Thermodynamics",
+      "topic-6": "Relativity",
+      "topic-7": "Quantum Mechanics",
+      
+      // Test names
+      "test-1": "Mathematics",
+      "test-2": "Static Electricity",
+      "test-3": "Static Magnetism",
+      "test-4": "Electrical Circuits",
+      
+      // Advanced tests
+      "adv-topic-1": "Electromagnetism",
+      
+      // Contact
+      "email-title": "Email",
+      
+      // Footer
+      "footer": "© 2025 Physics Olympiad - Latakia",
+      
+      // Button texts
+      "solution-soon-1": "Solution (Coming Soon)",
+      "solution-soon-2": "Solution (Coming Soon)",
+      "solution-soon-3": "Solution (Coming Soon)",
+      "solution-soon-4": "Solution (Coming Soon)",
+      
+      // Button labels
+      "explanation": "Explanation",
+      "training": "Training",
+      "motion-explanation": "Motion Explanation",
+      "motion-training": "Motion Training",
+      "forces-explanation": "Forces Explanation",
+      "forces-training": "Forces Training",
+      "waves": "Waves",
+      "file": "File",
+      "charge-image": "Charge Image",
+      "charge-motion": "Charge Motion",
+      "summary": "Summary",
+      "test": "Test",
+      "solution": "Solution",
+      "test-1-label": "Test 1",
+      "test-2-label": "Test 2",
+      "test-3-label": "Test 3",
+      "test-4-label": "Test 4",
+      "dc-circuits": "DC Circuits",
+      "ac-circuits": "AC Circuits",
+      "comprehensive-electromagnetism": "Comprehensive Electromagnetism",
+      "advanced-test-1": "Test 1",
+      "advanced-test-2": "Test 2",
+      "advanced-test-3": "Test 3"
+    }
+  };
+
+  // Language toggle functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('languageToggle');
+    let currentLanguage = 'ar';
+    
+    // Set initial language
+    updateLanguage(currentLanguage);
+    
+    // Toggle language on button click
+    toggleButton.addEventListener('click', function() {
+      currentLanguage = currentLanguage === 'ar' ? 'en' : 'ar';
+      updateLanguage(currentLanguage);
+      toggleButton.textContent = currentLanguage === 'ar' ? 'English' : 'العربية';
+    });
+    
+    function updateLanguage(lang) {
+      // Update HTML direction
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      document.documentElement.lang = lang;
+      
+      // Update all translatable elements
+      for (const [key, value] of Object.entries(translations[lang])) {
+        const element = document.getElementById(key);
+        if (element) {
+          element.textContent = value;
+        }
+      }
+      
+      // Update button texts in the training materials section
+      const buttons = document.querySelectorAll('.pill:not(.disabled)');
+      buttons.forEach(button => {
+        const originalText = button.textContent;
+        if (translations[lang][originalText]) {
+          button.textContent = translations[lang][originalText];
+        }
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
