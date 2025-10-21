@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Physics Olympiad Training - تدريبات أولمبياد الفيزياء - Physik-Olympiade Training</title>
+  <meta name="description" content="Free Physics Olympiad training materials, tests and solutions in Arabic, English and German. تدريبات مجانية لأولمبياد الفيزياء بثلاث لغات. Kostenlose Physik-Olympiade Trainingsmaterialien.">
+  <meta name="keywords" content="physics olympiad, physics training, أولمبياد الفيزياء, تدريبات فيزياء, Physik-Olympiade, Physik Training, calculus, mechanics, electromagnetism, تفاضل وتكامل, ميكانيك, كهرطيسية">
+  <meta name="author" content="Physics Olympiad Latakia">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lattakia-physics.github.io/">
+  <meta property="og:title" content="Physics Olympiad Training - تدريبات أولمبياد الفيزياء">
+  <meta property="og:description" content="Free Physics Olympiad training materials in Arabic, English and German">
+  <meta property="og:image" content="https://lattakia-physics.github.io/logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://lattakia-physics.github.io/">
+  <meta property="twitter:title" content="Physics Olympiad Training - تدريبات أولمبياد الفيزياء">
+  <meta property="twitter:description" content="Free Physics Olympiad training materials in Arabic, English and German">
+  <meta property="twitter:image" content="https://lattakia-physics.github.io/logo.png">
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="ar" href="https://lattakia-physics.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://lattakia-physics.github.io/" />
+  <link rel="alternate" hreflang="de" href="https://lattakia-physics.github.io/" />
+  <link rel="alternate" hreflang="x-default" href="https://lattakia-physics.github.io/" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://lattakia-physics.github.io/" />
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Physics Olympiad Latakia",
+    "alternateName": ["أولمبياد الفيزياء اللاذقية", "Physik-Olympiade Latakia"],
+    "description": "Free Physics Olympiad training materials and resources for students in Syria and worldwide",
+    "url": "https://lattakia-physics.github.io/",
+    "logo": "https://lattakia-physics.github.io/logo.png",
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "lattakiaphysicsfeedback@gmail.com",
+      "contactType": "educational support"
+    },
+    "areaServed": "SY",
+    "availableLanguage": ["Arabic", "English", "German"]
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" href="./logo.png">
+  <link rel="apple-touch-icon" href="./logo.png">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <style>
+    .logo-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      height: auto;
+      width: 80px;
+      border-radius: 8px;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      direction: rtl;
+      transition: all 0.3s ease;
+    }
+    
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 8px;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    
+    .card h3 {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+    
+    .link-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .pill {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #007acc;
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+    
+    .pill:hover {
+      background: #005a9e;
+    }
+    
+    .pill.disabled {
+      background: #aaa;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+    }
+    
+    .hero {
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: white;
+      padding: 40px 0;
+      margin-bottom: 30px;
+    }
+    
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    
+    .lead {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+    
+    /* Language Tabs */
+    .language-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .language-tab {
+      padding: 12px 24px;
+      background: #f0f0f0;
+      border: none;
+      border-radius: 8px 8px 0 0;
+      margin: 0 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.3s;
+    }
+    
+    .language-tab.active {
+      background: #007acc;
+      color: white;
+    }
+    
+    .language-tab:hover:not(.active) {
+      background: #e0e0e0;
+    }
+    
+    .language-section {
+      display: none;
+    }
+    
+    .language-section.active {
+      display: block;
+    }
+    
+    /* Language-specific styling */
+    .language-section[data-lang="ar"] {
+      direction: rtl;
+      font-family: 'Cairo', sans-serif;
+    }
+    
+    .language-section[data-lang="en"],
+    .language-section[data-lang="de"] {
+      direction: ltr;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .supervisors {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="header-content">
+      <div class="logo-section">
+        <img src="./logo.png" alt="Physics Olympiad Logo" class="logo">
+      </div>
+      <div>
+        <h1 id="main-title">تدريبات واختبارات أولمبياد الفيزياء</h1>
+        <p class="lead" id="main-description">
+          تم إعداد هذه الملفات أثناء تقديم تدريب لطلاب أولمبياد الفيزياء في سورية، وهو مستمر حتى الآن بإشراف:
+        </p>
+        <div class="supervisors" id="supervisors">
+          علي شميس – سامي دوه جي – كريم أبو سعيد – كريم عبد الحميد – David Reichmuth (المترجم للألمانية)
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <!-- Language Tabs -->
+  <div class="language-tabs">
+    <button class="language-tab active" data-lang="ar">العربية</button>
+    <button class="language-tab" data-lang="en">English</button>
+    <button class="language-tab" data-lang="de">Deutsch</button>
+  </div>
+
+  <!-- Arabic Section -->
+  <section class="language-section active" data-lang="ar" id="arabic-section">
+    <h2>الملفات التدريبية</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>التفاضل والتكامل</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1Lvt-1AgPqdQebznnrWD1Tw6tDsNSwBOf/view?usp=sharing">الشرح</a>
+          <a class="pill" href="https://drive.google.com/file/d/1BKrA73e6wisEInfK6m_TsPWzAk-LMIr5/view?usp=sharing">التدريب</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>الميكانيك</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1ffymhx6t-T0jA548K_PEeSGRPbTHH12L/view?usp=sharing">شرح الحركة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1MYgR25eEgCYEIQgCgtmKf8tPSEWhmU5w/view?usp=sharing">تدريب الحركة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1TdV2yb1gRqQrI6_hozVjmJqWDRJ65NVn/view?usp=sharing">شرح القوى</a>
+          <a class="pill" href="https://drive.google.com/file/d/13OsNM56w8uaZuQFELstJUBWdH43j8qqc/view?usp=sharing">تدريب القوى</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NqDZBgoLNRZeul51evCryV9YAY9W6CPL/view?usp=sharing">الأمواج</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>معادلات تفاضلية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1vjtKS6kHI-dfNqUpyHBcacpg-omwLz35/view?usp=sharing">الملف</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>الكهرطيسية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/17yG_ePdAXIS_96rnX0E7bdZsBWyVasZj/view?usp=sharing">صورة شحنة</a>
+          <a class="pill" href="https://drive.google.com/file/d/1LnCPmXHhe1GJakOQBZ8uW2yK87_S1FBo/view?usp=sharing">حركة الشحنات</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>الترموديناميك</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1wW6JTomPvZQprMuXWkpa_XvFH_XAFOge/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>النسبية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1-Lyp0Q3dtRpcAwOfrbkClxa7gNC1G7R_/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>ميكانيك الكم</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/13XhaUy0y1F3pWEEmQol0LtP_4RbQInxt/view?usp=sharing">ملخص</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>الاختبارات التدريبية</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>الرياضيات</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1GUZs__3brDIbKt-LH6aKar8TsSyhcdu0/view?usp=sharing">اختبار</a>
+          <a class="pill" href="https://drive.google.com/file/d/14AxPJdnFl9DfHn5d2WNWJkERFpOmpj-j/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>الكهرباء الساكنة</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1L8tjI6MSZZv_88WTbJ1TKgEaWqpEX6ci/view?usp=sharing">اختبار 1</a>
+          <a class="pill" href="https://drive.google.com/file/d/1IOILua4GE5rAVriafLsH9eklMz1g_rxJ/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1FXZC1ymzeuYutFw-pdiLQ5aR0LiNv54E/view?usp=sharing">اختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/1h8Zurk-Z5I0GNE0gHmYlRVnfKPhuysv7/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1Ht8p9shTDocUbiNRYnGnaSdocjYfMxms/view?usp=sharing">اختبار 3</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NlN7qybehRg6UwKCZ0ASc1EMNMSEIMrH/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1NSuHBdZ-koPQHH8dpcd7fHGBW7YGkcEI/view?usp=sharing">اختبار 4</a>
+          <a class="pill" href="https://drive.google.com/file/d/1ozR7AC7hSaJAyqXVrvimk5--QYPrewAs/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>المغناطيسية الساكنة</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1vG9zfAKHS2VYEsPRhLYF10cPyXY5-0Y3/view?usp=sharing">اختبار 1</a>
+          <span class="pill disabled">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/13T3EcVT1BE1n6qBtTGd9lmTHrou5ILOl/view?usp=sharing">اختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/1sICszNaMYrR0kLMhBliXkwKyO7Mp3Jzc/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>الدوائر الكهربائية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/19u-ExtUjc49cXPBwiovRq3ZSKut7b7Hb/view?usp=sharing">دوائر مستمرة</a>
+          <span class="pill disabled">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/16gFCEQH2wkdy2kuy9KMapKqjdUvr25ZX/view?usp=sharing">دوائر متناوبة</a>
+          <span class="pill disabled">الحل (قريباً)</span>
+          <a class="pill" href="https://drive.google.com/file/d/1W48DBTdJQUsCPifh3KdtyjqAMa5IbJbV/view?usp=sharing">كهرطيسية شامل</a>
+          <span class="pill disabled">الحل (قريباً)</span>
+        </div>
+      </div>
+    </div>
+
+    <h2>الاختبارات المتقدمة</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>الكهرطيسية</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1SnyciQ5q3Q-UwicYb57OrUa5todjFSLS/view?usp=sharing">الاختبار 1</a>
+          <a class="pill" href="https://drive.google.com/file/d/15WLyOSJr1DV9scWbmXSmJxr0sMbyV1xc/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1wIiY39Ab4RiOalP7YXrjJOajODTojVS5/view?usp=sharing">الاختبار 2</a>
+          <a class="pill" href="https://drive.google.com/file/d/17uuLYeMiUJXs0MZfweoEGmvbS1uLWQrB/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1dEe5pM4xQNz9grAbRg55YqAAQ1pviPi3/view?usp=sharing">الاختبار 3</a>
+          <a class="pill" href="https://drive.google.com/file/d/1JRkNCXYGcedGiH3j9RTY86lMHRmOTu1r/view?usp=sharing">الحل</a>
+        </div>
+      </div>
+       <div class="card">
+        <h3>الترموديناميك</h3>
+        <div class="link-row">
+          <a class="pill" href="https://drive.google.com/file/d/1XvbuzZxac5g9FeKyg0lBsk2tljX0ug9o/view?usp=sharing">الاختبار 1</a>
+          <a class="pill" href="https://drive.google.com/file/d/1KiwO3dEiAmrLv8Z6FfH9bA9Z9lPWeGgc/view?usp=sharing">الحل</a>
+          <a class="pill" href="https://drive.google.com/file/d/1IzyVXbj7io33JIMxYVX27ARHgLhnJwXb/view?usp=sharing">الاختبار 2</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>تواصل معنا</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>البريد الإلكتروني</h3>
+        <div class="link-row">
+          <a class="pill" href="mailto:lattakiaphysicsfeedback@gmail.com">lattakiaphysicsfeedback@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- English Section -->
+  <section class="language-section" data-lang="en" id="english-section">
+    <h2>Training Materials</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Calculus</h3>
+        <div class="link-row">
+          <a class="pill" href="#">Explanation</a>
+          <a class="pill" href="#">Training</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Mechanics</h3>
+        <div class="link-row">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Differential Equations</h3>
+        <div class="link-row">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Electromagnetism</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Thermodynamics</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Relativity</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Quantum Mechanics</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Training Tests</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mathematics</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Static Electricity</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Static Magnetism</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Electrical Circuits</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Advanced Tests</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Electromagnetism</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+       <div class="card">
+        <h3>Thermodynamics</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Contact Us</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Email</h3>
+        <div class="link-row">
+          <a class="pill" href="mailto:lattakiaphysicsfeedback@gmail.com">lattakiaphysicsfeedback@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- German Section -->
+  <section class="language-section" data-lang="de" id="german-section">
+    <h2>Trainingsmaterialien</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Infinitesimalrechnung</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Mechanik</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Differentialgleichungen</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Elektromagnetismus</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Thermodynamik</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Relativität</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Quantenmechanik</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Trainingstests</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mathematik</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Statische Elektrizität</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Statischer Magnetismus</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+      <div class="card">
+        <h3>Elektrische Schaltkreise</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Fortgeschrittene Tests</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Elektromagnetismus</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+       <div class="card">
+        <h3>Thermodynamik</h3>
+        <div class="link-row">
+
+        </div>
+      </div>
+    </div>
+
+    <h2>Kontaktieren Sie uns</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>E-Mail</h3>
+        <div class="link-row">
+          <a class="pill" href="mailto:lattakiaphysicsfeedback@gmail.com">lattakiaphysicsfeedback@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer id="footer">
+  © 2025 Physics Olympiad - Latakia
+</footer>
+
+<script>
+  // Language data
+  const translations = {
+    ar: {
+      // Main header
+      "main-title": "تدريبات واختبارات أولمبياد الفيزياء",
+      "main-description": "تم إعداد هذه الملفات أثناء تقديم تدريب لطلاب أولمبياد الفيزياء في سورية، وهو مستمر حتى الآن بإشراف:",
+      "supervisors": "علي شميس – سامي دوه جي – كريم أبو سعيد – كريم عبد الحميد – David Reichmuth (المترجم للألمانية)",
+      
+      // Footer
+      "footer": "© 2025 أولمبياد الفيزياء - اللاذقية"
+    },
+    en: {
+      // Main header
+      "main-title": "Physics Olympiad Training and Tests",
+      "main-description": "These files were prepared during training for Physics Olympiad students in Syria, which continues to this day under the supervision of:",
+      "supervisors": "Ali Chmes – Sami Dowaji – Kareem Abo Said – Karim Abdul Hamid – David Reichmuth (German Translator)",
+      
+      // Footer
+      "footer": "© 2025 Physics Olympiad - Latakia"
+    },
+    de: {
+      // Main header
+      "main-title": "Physik-Olympiade Training und Tests",
+      "main-description": "Diese Dateien wurden während des Trainings für Physik-Olympiade-Studenten in Syrien erstellt, das bis heute unter der Aufsicht von fortgesetzt wird:",
+      "supervisors": "Ali Chmes – Sami Dowaji – Kareem Abo Said – Karim Abdul Hamid – David Reichmuth (Deutscher Übersetzer)",
+      
+      // Footer
+      "footer": "© 2025 Physik-Olympiade - Latakia"
+    }
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.language-tab');
+    const sections = document.querySelectorAll('.language-section');
+    
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function() {
+        const targetLang = this.getAttribute('data-lang');
+        
+        // Update active tab
+        tabs.forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+        
+        // Show target section, hide others
+        sections.forEach(section => {
+          section.classList.remove('active');
+          if (section.getAttribute('data-lang') === targetLang) {
+            section.classList.add('active');
+          }
+        });
+        
+        // Update body direction based on language
+        if (targetLang === 'ar') {
+          document.body.dir = 'rtl';
+          document.body.style.fontFamily = "'Cairo', sans-serif";
+        } else {
+          document.body.dir = 'ltr';
+          document.body.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+        }
+        
+        // Update header and footer content
+        updateHeaderFooter(targetLang);
+      });
+    });
+    
+    function updateHeaderFooter(lang) {
+      // Update main title
+      const mainTitle = document.getElementById('main-title');
+      if (mainTitle) {
+        mainTitle.textContent = translations[lang]["main-title"];
+      }
+      
+      // Update main description
+      const mainDescription = document.getElementById('main-description');
+      if (mainDescription) {
+        mainDescription.textContent = translations[lang]["main-description"];
+      }
+      
+      // Update supervisors
+      const supervisors = document.getElementById('supervisors');
+      if (supervisors) {
+        supervisors.textContent = translations[lang]["supervisors"];
+      }
+      
+      // Update footer
+      const footer = document.getElementById('footer');
+      if (footer) {
+        footer.textContent = translations[lang]["footer"];
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
