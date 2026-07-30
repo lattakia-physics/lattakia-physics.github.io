@@ -8,7 +8,7 @@
     <!-- Primary Meta Tags -->
     <title>Physics Olympiad Training - أولمبياد الفيزياء - Physik-Olympiade Training</title>
     <meta name="description" content="Free Physics Olympiad training materials, tests and solutions in Arabic, English and German. تدريبات مجانية لأولمبياد الفيزياء بثلاث لغات. Kostenlose Physik-Olympiade Trainingsmaterialien.">
-    <meta name="keywords" content="تدريبات أولمبياد الفيزياء, مسائل أولمبياد الفيزياء, حلول مسائل الفيزياء, تدريب فيزياء للطلاب, مسائل فيزياء مع الحل, تمارين فيزياء للمرحلة الثانوية, تحضير أولمبياد الفيزياء, مسائل فيزياء صعبة, تدريب على حل مسائل الفيزياء, موارد تعلم الفيزياء, مسائل أولمبياد الفيزياء السابقة, شرح أولمبياد الفيزياء, نظريات فيزياء للمسابقات, مسائل فيزياء متقدمة, مسائل فيزياء في الميكانيك, مسائل في الكهرباء والمغناطيسية, مسائل فيزياء في الديناميكا الحرارية, دليل دراسة أولمبياد الفيزياء, أولمبياد الفيزياء السوري, تدريب أولمبياد الفيزياء سوريا, مسائل فيزياء للطلاب العرب, أولمبياد العلوم سوريا, فيزياء للمرحلة الثانوية سوريا, Physics Olympiad training, Physics Olympiad problems, Physics Olympiad solutions, Physics competition preparation, High school physics training, Physics problem solving, Physics exercises for students, Physics challenge problems, Physics exam preparation, Physics learning resources, Physics Olympiad past papers, Physics Olympiad tutorials, Physics theory for competitions, Advanced physics problems, Physics mechanics problems, Physics electricity and magnetism problems, Physics thermodynamics problems, Physics Olympiad study guide">
+    <meta name="keywords" content="تدريبات أولمبياد الفيزياء, مسائل أولمبياد الفيزياء, حلول مسائل الفيزياء, تدريب فيزياء للطلاب, مسائل فيزياء مع الحل, تمارين فيزياء للمرحلة الثانوية, تحضير أولمبياد الفيزياء, مسائل فيزياء صعبة, تدريب على حل مسائل الفيزياء, موارد تعلم الفيزياء, مسائل أولمبياد الفيزياء السابقة, شرح أولمبياد الفيزياء, نظريات فيزياء للمسابقات, مسائل فيزياء متقدمة, مسائل فيزياء في الميكانيك, مسائل في الكهرباء والمغناطيسية, مسائل فيزياء في الديناميكا الحرارية, دليل دراسة أولمبياد الفيزياء, أولمبياد الفيزياء السوري, تدريب أولمبياد الفيزياء سوريا, مسائل فيزياء للطلاب العرب, أولمبياد الفيزياء, فيزياء للمرحلة الثانوية سوريا, Physics Olympiad training, Physics Olympiad problems, Physics Olympiad solutions, Physics competition preparation, High school physics training, Physics problem solving, Physics exercises for students, Physics challenge problems, Physics exam preparation, Physics learning resources, Physics Olympiad past papers, Physics Olympiad tutorials, Physics theory for competitions, Advanced physics problems, Physics mechanics problems, Physics electricity and magnetism problems, Physics thermodynamics problems, Physics Olympiad study guide">
     <meta name="author" content="Physics Olympiad Latakia">
     <meta name="robots" content="index, follow">
 
@@ -343,6 +343,125 @@
             font-family: 'Inter', 'Cairo', sans-serif;
         }
 
+        /* ── AUTHORS SECTION (horizontal scroll) ── */
+        .authors-wrapper {
+            margin: 40px 0 30px 0;
+        }
+
+        .authors-scroll {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 12px 4px 20px 4px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
+            scrollbar-color: #cbd5e1 transparent;
+        }
+
+        .authors-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+        .authors-scroll::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 12px;
+        }
+        .authors-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 12px;
+        }
+        .authors-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .author-card {
+            flex: 0 0 220px;
+            min-height: 180px;
+            scroll-snap-align: start;
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.85);
+            border-radius: 24px;
+            padding: 24px 20px 20px 20px;
+            box-shadow: 0 8px 28px -8px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .author-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.08);
+            background: rgba(255, 255, 255, 0.9);
+            border-color: rgba(255, 255, 255, 0.95);
+        }
+
+        .author-avatar {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #eef2ff, #dbeafe);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 12px;
+            flex-shrink: 0;
+            border: 2px solid rgba(37, 99, 235, 0.15);
+        }
+
+        .author-name {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0f172a;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .author-desc {
+            font-size: 14px;
+            color: #475569;
+            line-height: 1.5;
+            max-width: 180px;
+        }
+
+        .language-section[data-lang="ar"] .author-card {
+            direction: rtl;
+        }
+        .language-section[data-lang="en"] .author-card,
+        .language-section[data-lang="de"] .author-card {
+            direction: ltr;
+        }
+
+        @media (max-width: 640px) {
+            .author-card {
+                flex: 0 0 170px;
+                min-height: 150px;
+                padding: 18px 14px 14px 14px;
+            }
+            .author-avatar {
+                width: 42px;
+                height: 42px;
+                font-size: 18px;
+            }
+            .author-name {
+                font-size: 16px;
+            }
+            .author-desc {
+                font-size: 13px;
+            }
+            .authors-scroll {
+                gap: 14px;
+                padding: 8px 2px 16px 2px;
+            }
+        }
+
         /* ── footer ── */
         footer {
             text-align: center;
@@ -446,7 +565,7 @@
                         <a class="pill" href="https://drive.google.com/file/d/171jMRKnpcCV9AW1k28c7vpTb91VSnSY_/view?usp=drive_link">الأشعة </a>
                         <a class="pill" href="https://drive.google.com/file/d/1cUN3GFruukiGyEAEDAflmKu6PKk1Pwoj/view?usp=drive_link">الإشتقاق</a>
                         <a class="pill" href="https://drive.google.com/file/d/1IGwkxDUpdgD4AT20tGQYthM7GxEtM4CM/view?usp=drive_link">التكامل</a>
-                        
+
                         <a class="pill" href="https://drive.google.com/file/d/1Lvt-1AgPqdQebznnrWD1Tw6tDsNSwBOf/view?usp=sharing">التفاضل و التكامل</a>
                         <a class="pill" href="https://drive.google.com/file/d/1BKrA73e6wisEInfK6m_TsPWzAk-LMIr5/view?usp=sharing">التدريب</a>
                         <a class="pill" href="https://drive.google.com/file/d/1kt2Ly3N8pousJExJpvLE_CcW4EghIkuj/view?usp=sharing">الأجزاء التفاضلية</a>
@@ -574,7 +693,7 @@
                         <a class="pill" href="https://drive.google.com/file/d/1BKDiiuQ5SEWBG5u2I5yjngdXwMplWDlS/view?usp=drive_link">الحل</a>
                     </div>
                 </div>
-                
+
                 <div class="card">
                     <h3>المغناطيسية</h3>
                     <div class="link-row">
@@ -613,9 +732,9 @@
                         <a class="pill" href="https://drive.google.com/file/d/1vEvnGsxLS2EiafwEOSg-YbRmquECTtfB/view?usp=drive_link">الحل</a>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                <h3>إختبارات مختلطة</h3>
+                    <h3>إختبارات مختلطة</h3>
                     <div class="link-row">
                         <a class="pill" href="https://drive.google.com/file/d/1lPA7UZ_SQ94Hrtt_Sq7LsjU1G2XkmZwo/view?usp=drive_link">اختبار 1</a>
                         <a class="pill" href="https://drive.google.com/file/d/1TblRGqFvwVWRbMayFj4i0g77BQeuSJPD/view?usp=drive_link">الحل</a>
@@ -642,35 +761,35 @@
 
             <h2>الاختبارات المتقدمة</h2>
 
-                <div class="card">
-                    <div class="link-row">
-                        <a class="pill" href="https://drive.google.com/file/d/1SnyciQ5q3Q-UwicYb57OrUa5todjFSLS/view?usp=sharing">الكهرطيسية 1</a>
-                        <a class="pill" href="https://drive.google.com/file/d/15WLyOSJr1DV9scWbmXSmJxr0sMbyV1xc/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1wIiY39Ab4RiOalP7YXrjJOajODTojVS5/view?usp=sharing">الكهرطيسية 2</a>
-                        <a class="pill" href="https://drive.google.com/file/d/17uuLYeMiUJXs0MZfweoEGmvbS1uLWQrB/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1dEe5pM4xQNz9grAbRg55YqAAQ1pviPi3/view?usp=sharing">الكهرطيسية 3</a>
-                        <a class="pill" href="https://drive.google.com/file/d/1JRkNCXYGcedGiH3j9RTY86lMHRmOTu1r/view?usp=sharing">الحل</a>
+            <div class="card">
+                <div class="link-row">
+                    <a class="pill" href="https://drive.google.com/file/d/1SnyciQ5q3Q-UwicYb57OrUa5todjFSLS/view?usp=sharing">الكهرطيسية 1</a>
+                    <a class="pill" href="https://drive.google.com/file/d/15WLyOSJr1DV9scWbmXSmJxr0sMbyV1xc/view?usp=sharing">الحل</a>
 
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1XvbuzZxac5g9FeKyg0lBsk2tljX0ug9o/view?usp=sharing">الترموديناميك 1</a>
-                        <a class="pill" href="https://drive.google.com/file/d/1KiwO3dEiAmrLv8Z6FfH9bA9Z9lPWeGgc/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1IzyVXbj7io33JIMxYVX27ARHgLhnJwXb/view?usp=sharing">الترموديناميك 2</a>
-                        <a class="pill" href="https://drive.google.com/file/d/1BbOKqd-aLbZ6dqxmZDOEYIYhraJ3VkDF/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1MPxF3ixH3MopzhUFZv1nGwg9OtetAVhd/view?usp=sharing">الترموديناميك 3</a>
-                        <a class="pill" href="https://drive.google.com/file/d/18KokfhnOed2aX87oLZbc5IcYyueZP1xG/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1ULismCdr2mqNHw1mUkIcvDmpP513aJV9/view?usp=sharing">الترموديناميك 4</a>
-                        <a class="pill" href="https://drive.google.com/file/d/1FUW6sVYIL6Wv8TjdYDt1FLDhSmENVuwj/view?usp=sharing">الحل</a>
-                        
-                        <a class="pill" href="https://drive.google.com/file/d/1gRnTGlBrZzzlal3DvFaJeonsT2eL2bbx/view?usp=sharing">الترموديناميك 5</a>
-                        <span class="pill disabled">الحل (قريباً)</span>
-                    </div>
+                    <a class="pill" href="https://drive.google.com/file/d/1wIiY39Ab4RiOalP7YXrjJOajODTojVS5/view?usp=sharing">الكهرطيسية 2</a>
+                    <a class="pill" href="https://drive.google.com/file/d/17uuLYeMiUJXs0MZfweoEGmvbS1uLWQrB/view?usp=sharing">الحل</a>
+
+                    <a class="pill" href="https://drive.google.com/file/d/1dEe5pM4xQNz9grAbRg55YqAAQ1pviPi3/view?usp=sharing">الكهرطيسية 3</a>
+                    <a class="pill" href="https://drive.google.com/file/d/1JRkNCXYGcedGiH3j9RTY86lMHRmOTu1r/view?usp=sharing">الحل</a>
+
+
+                    <a class="pill" href="https://drive.google.com/file/d/1XvbuzZxac5g9FeKyg0lBsk2tljX0ug9o/view?usp=sharing">الترموديناميك 1</a>
+                    <a class="pill" href="https://drive.google.com/file/d/1KiwO3dEiAmrLv8Z6FfH9bA9Z9lPWeGgc/view?usp=sharing">الحل</a>
+
+                    <a class="pill" href="https://drive.google.com/file/d/1IzyVXbj7io33JIMxYVX27ARHgLhnJwXb/view?usp=sharing">الترموديناميك 2</a>
+                    <a class="pill" href="https://drive.google.com/file/d/1BbOKqd-aLbZ6dqxmZDOEYIYhraJ3VkDF/view?usp=sharing">الحل</a>
+
+                    <a class="pill" href="https://drive.google.com/file/d/1MPxF3ixH3MopzhUFZv1nGwg9OtetAVhd/view?usp=sharing">الترموديناميك 3</a>
+                    <a class="pill" href="https://drive.google.com/file/d/18KokfhnOed2aX87oLZbc5IcYyueZP1xG/view?usp=sharing">الحل</a>
+
+                    <a class="pill" href="https://drive.google.com/file/d/1ULismCdr2mqNHw1mUkIcvDmpP513aJV9/view?usp=sharing">الترموديناميك 4</a>
+                    <a class="pill" href="https://drive.google.com/file/d/1FUW6sVYIL6Wv8TjdYDt1FLDhSmENVuwj/view?usp=sharing">الحل</a>
+
+                    <a class="pill" href="https://drive.google.com/file/d/1gRnTGlBrZzzlal3DvFaJeonsT2eL2bbx/view?usp=sharing">الترموديناميك 5</a>
+                    <span class="pill disabled">الحل (قريباً)</span>
                 </div>
-                
+            </div>
+
 
             <!-- ─── ARABIC EXPERIMENTAL & THEORY MOCK ─── -->
             <h2>التجارب العملية</h2>
@@ -683,7 +802,7 @@
                         <a class="pill" href="osciprob.html">محاكي المسألة الثانية</a>
                     </div>
                 </div>
-                </div>
+            </div>
 
             <h2>اختبارات نظرية شاملة</h2>
             <div class="grid">
@@ -692,6 +811,48 @@
                     <div class="link-row">
                         <a class="pill" href="https://drive.google.com/file/d/1fjjWVaQ7ASWWZU4_5tdwygC1OtlNueCz/view?usp=sharing">الإختبار الأول</a>
                         <a class="pill" href="https://drive.google.com/file/d/1z2GDXLlee08Q6lFXiyJkC0CINz7Uu1YQ/view?usp=sharing">الإختبار الثاني</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ─── ✦ UPDATED: AUTHORS & SUPERVISORS (Arabic) ✦ ─── -->
+            <div class="authors-wrapper">
+                <h2>👨‍🏫 المؤلفون والمشرفون</h2>
+                <div class="authors-scroll">
+                    <div class="author-card">
+                        <div class="author-avatar">ع</div>
+                        <div class="author-name">علي شميس</div>
+                        <div class="author-desc">المؤسس والمدرب للفريق الوطني السوري IPHO 2025 شهادة تقدير، ISPHO 2025 فضية</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">ك</div>
+                        <div class="author-name">كريم عبد الحميد</div>
+                        <div class="author-desc">مدرب للفريق الوكني السوري حالياً، KAIPHO 2026 برونزية، ISPHO 2026 برونزية</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">ك</div>
+                        <div class="author-name">كريم أبو سعيد</div>
+                        <div class="author-desc">طالب سابق، IPHO 2025 شهادة تقدير، ISPHO 2025 شهادة تقدير، KAIPHO/ISPHO 2026 برونزية</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">س</div>
+                        <div class="author-name">سامي دوه جي</div>
+                        <div class="author-desc">طالب سابق و مدرب سابق للفريق الوطني السوري </div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">م</div>
+                        <div class="author-name">محمد الرزوق</div>
+                        <div class="author-desc">طالب سابق، مدرب سابق (2019-2020)</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">D</div>
+                        <div class="author-name">David Reichmuth</div>
+                        <div class="author-desc">مشارك سويسري في IPHO، مترجم ألماني</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">د</div>
+                        <div class="author-name">آخرون كثر</div>
+                        <div class="author-desc">ساعدو في جعل هذا المشروع و الحلم حقيقة</div>
                     </div>
                 </div>
             </div>
@@ -743,7 +904,49 @@
                         <a class="pill" href="osciprob en.html">problem 2 simulator</a>
                     </div>
                 </div>
+            </div>
+
+            <!-- ─── ✦ UPDATED: AUTHORS & SUPERVISORS (English) ✦ ─── -->
+            <div class="authors-wrapper">
+                <h2>👨‍🏫 Authors &amp; Supervisors</h2>
+                <div class="authors-scroll">
+                    <div class="author-card">
+                        <div class="author-avatar">A</div>
+                        <div class="author-name">Ali CHMES</div>
+                        <div class="author-desc">Founder & Head Coach (2024–). IPHO 2025 HM, ISPHO 2025 Silver</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">K</div>
+                        <div class="author-name">Kareem Abdelhamid</div>
+                        <div class="author-desc">Current National Team Coach. KAIPHO 2026 Bronze, ISPHO 2026 Bronze</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">K</div>
+                        <div class="author-name">Kareem Abo Said</div>
+                        <div class="author-desc">Past student. IPHO 2025 HM, ISPHO 2025 HM, KAIPHO/ISPHO 2026 Bronze</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">S</div>
+                        <div class="author-name">Sami Dowaji</div>
+                        <div class="author-desc">Past student & trainer</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">M</div>
+                        <div class="author-name">Mohamed Alrazzouk</div>
+                        <div class="author-desc">Past student, coach (2019-2020)</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">D</div>
+                        <div class="author-name">David Reichmuth</div>
+                        <div class="author-desc">Swiss IPHO participant, German translator</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">E</div>
+                        <div class="author-name">Editorial &amp; Support</div>
+                        <div class="author-desc">Material preparation and organization</div>
+                    </div>
                 </div>
+            </div>
 
             <h2>Contact Us</h2>
             <div class="grid">
@@ -823,6 +1026,48 @@
                 <div class="card">
                     <h3>Thermodynamik</h3>
                     <div class="link-row"></div>
+                </div>
+            </div>
+
+            <!-- ─── ✦ UPDATED: AUTHORS & SUPERVISORS (German) ✦ ─── -->
+            <div class="authors-wrapper">
+                <h2>👨‍🏫 Autoren &amp; Betreuer</h2>
+                <div class="authors-scroll">
+                    <div class="author-card">
+                        <div class="author-avatar">A</div>
+                        <div class="author-name">Ali CHMES</div>
+                        <div class="author-desc">Gründer & Cheftrainer (2024–). IPHO 2025 HM, ISPHO 2025 Silber</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">K</div>
+                        <div class="author-name">Kareem Abdelhamid</div>
+                        <div class="author-desc">Aktueller Nationaltrainer. KAIPHO 2026 Bronze, ISPHO 2026 Bronze</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">K</div>
+                        <div class="author-name">Kareem Abo Said</div>
+                        <div class="author-desc">Ehemaliger Student. IPHO 2025 HM, ISPHO 2025 HM, KAIPHO/ISPHO 2026 Bronze</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">S</div>
+                        <div class="author-name">Sami Dowaji</div>
+                        <div class="author-desc">Ehemaliger Student & Trainer</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">M</div>
+                        <div class="author-name">Mohamed Alrazzouk</div>
+                        <div class="author-desc">Ehemaliger Student, Trainer (2019-2020)</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">D</div>
+                        <div class="author-name">David Reichmuth</div>
+                        <div class="author-desc">Schweizer IPHO-Teilnehmer, Deutscher Übersetzer</div>
+                    </div>
+                    <div class="author-card">
+                        <div class="author-avatar">R</div>
+                        <div class="author-name">Redaktion &amp; Support</div>
+                        <div class="author-desc">Vorbereitung und Organisation der Materialien</div>
+                    </div>
                 </div>
             </div>
 
